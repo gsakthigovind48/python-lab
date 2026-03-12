@@ -1,0 +1,21 @@
+lst = [2, 3, 4] 
+tup = (3, 4, 7) 
+sett = {7, 8, 9} 
+dict1 = {"a": 20, "b": 10} 
+lst.append(4) 
+sett.add(10) 
+dict1["c"] = 30 
+print(lst) 
+print(tup) 
+print(sett) 
+print(dict1) 
+
+
+
+
+[2, 3, 4, 4]
+(3, 4, 7)
+{8, 9, 10, 7}
+{'a': 20, 'b': 10, 'c': 30}
+
+
