@@ -1,0 +1,20 @@
+text = "India is my country" 
+print(text.upper()) 
+ 
+f = open("sample.txt", "w") 
+f.write(text) 
+f.close() 
+ 
+f = open("sample.txt", "r") 
+print(f.read()) 
+f.close()
+
+
+
+
+
+
+INDIA IS MY COUNTRY
+India is my country
+
+
